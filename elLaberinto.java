@@ -34,8 +34,8 @@ class elLaberinto{
         posicionY = 1;
 
         do {
-			imprimeMapa(unMapa);
-		} while (procesaMovimiento(unMapa));
+			imprimeMapa(elMapa);
+		} while (procesaMovimiento(elMapa));
 	}
 
     private static boolean procesaMovimiento(int[][] elMapa){
